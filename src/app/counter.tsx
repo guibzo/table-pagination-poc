@@ -10,7 +10,6 @@ export const Counter = () => {
   return (
     <>
       <div className='flex items-center gap-2.5'>
-        {' '}
         <Button onClick={() => setCount(count - 1)}>
           <LucideMinus className='size-4' />
         </Button>

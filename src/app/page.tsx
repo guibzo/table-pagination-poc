@@ -1,4 +1,9 @@
+import type { Metadata } from 'next'
 import { Counter } from './counter'
+
+export const metadata: Metadata = {
+  title: 'Home',
+}
 
 export default function Home() {
   return (
